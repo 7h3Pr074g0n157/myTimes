@@ -1,13 +1,21 @@
 /** SECTION header */
-.header-container{
+.header-cont{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+
+  display: flex;
+  align-items: center;
 }
-.header-container li{
+.header-cont li{
   display: inline-block;
   list-style-type: none;
 }
-.header-container header li{
+.header-cont header li{
   color: mediumaquamarine;
+}
+
+/** SECTION content */
+section,article{
+  border: 1px solid black;
 }
