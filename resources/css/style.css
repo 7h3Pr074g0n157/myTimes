@@ -4,7 +4,10 @@
   font-size: 14px;
   font-weight: bold;
 }
-
+.header-container li{
+  display: inline-block;
+  list-style-type: none;
+}
 .header-container header li{
   color: mediumaquamarine;
 }
