@@ -19,3 +19,17 @@
 section,article{
   border: 1px solid black;
 }
+
+.content-cont{
+  display: flex;
+  justify-content: space-around;
+}
+.content-item.large-cont{
+  width: 630px;
+}
+.content-item.medium-cont{
+  width: 300px;
+}
+.content-item.small-cont{
+  width: 240px;
+}
