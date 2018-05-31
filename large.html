@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style media="screen">
+    main,section,div{
+      border: 1px solid black;
+    }
+    main.content{
+      display: flex;
+      flex-direction: column;
+      font-family: Georgia;
+      font-size: 17px;
+      color: black;
+    }
+      .column.large{
+        width: 630px;
+        display: flex;
+        flex-direction: column;
+      }
+      .column.large .storys{
+        display: flex;
+        flex-direction: row;
+      }
+      .headline{
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+      }
+      .story-main .headline{
+        font-size: 40px;
+      }
+      .img-main{
+        background-image: url('./resources/images/img-story-main.png');
+        height: 300px;
+        width:  629px;
+      }
+      .img-2{
+        background-image: url('./resources/images/img-story-2.png');
+        background-size: contain;
+        height: 300px;
+        width:  299px;
+      }
+      .img-3{
+        background-image: url('./resources/images/img-story-3.png');
+        background-size: contain;
+        height: 300px;
+        width:  299px;
+      }
+
+    </style>
+    <meta charset="utf-8">
+    <title>Large Column</title>
+  </head>
+  <body>
+    <main class="content">
+      <section class="column large">
+      <!-- large start -->
+        <section class="story-main">
+          <div class="headline img-main">
+            <span>Mother of Three Buys Tuna Steak at Phish Concert. Leavs, "Feeling Funny."</span>
+          </div>
+          <div class="story">
+            <p>MONUMENT VALLEY, AZ - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec nisl at augue dapibus dignissim. Nunc condimentum rutrum metus, ac eleifend lacus viverra nec. Proin ultrices egestas diam sed mollis. Nulla sapien massa, dictum vitae est et, pellentesque rutrum risus. Nunc volutpat, metus ac rutrum tempus, orci nisi porttitor dolor, sit amet luctus metus est ut mauris. Quisque vulputate nisl vitae massa rhoncus, at sagittis elit accumsan. Etiam tempus, lorem quis blandit imperdiet, enim dui lobortis tortor, sit amet lobortis arcu ex id odio. Nam fermentum nulla et eros bibendum, sed ullamcorper massa scelerisque. Vestibulum aliquet placerat leo a hendrerit. Nulla non sagittis neque. Nullam sit amet fringilla massa.</p>
+          </div>
+        </section>
+
+        <section class="storys">
+          <section class="row">
+          <div class="story">
+            <h2>Orca Spends Vacation at Land World Puget</h2>
+            <p>PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan... </p>
+          </div>
+          <div class="headline img-2">
+            <span>Earth Spins Backwards for 2017</span>
+          </div>
+          </section>
+          <section class="row">
+          <div class="story">
+            <h2>Burger for Breakfast: How Early is too Early?</h2>
+            <p>Mew York, MY—Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque id quam facilisis, ultrices ante ut, rutrum enim. Praesent eu nisl erat. </p>
+          </div>
+          <div class="headline img-3">
+            <span>Research Shows Cameras Erase Memory</span>
+          </div>
+          </section>
+        </section>
+      <!-- large end -->
+      </section>
+
+
+    </main>
+
+  </body>
+</html>
